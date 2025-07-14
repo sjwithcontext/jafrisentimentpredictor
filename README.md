@@ -1,7 +1,7 @@
 # JAFRI Sentiment Predictor
 
-This repository contains a minimal implementation of the project described in the prompt.
-It fetches Apple (AAPL) price data, derives technical and sentiment features and trains
+This repository contains a minimal implementation of the project described in the project report.
+It fetches Apple (AAPL) price data, derives technical and sentiment features, and trains
 both a logistic regression baseline and a LightGBM classifier. A small FastAPI service
 can serve the latest prediction using the trained model.
 
